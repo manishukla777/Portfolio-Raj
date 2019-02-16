@@ -217,7 +217,7 @@ header {
 }
 
 .logo {
-    height: 100px;
+/*    height: 100px;*/
     width: auto;
     float: left;
     margin-top: 35px;
@@ -285,6 +285,10 @@ header {
 .mobile-nav-icon i {
     font-size: 200%;
     color: #fff;
+}
+
+.menubar-before {
+    display: none;
 }
 
 /* Sticky navi */

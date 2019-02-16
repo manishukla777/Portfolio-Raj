@@ -56,6 +56,11 @@
     .logo-black {
         width: 350px;
     }
+    
+    .name {
+        margin-bottom: 2px;
+    }
+    
 }
 
 @media only screen and (max-width: 767px) {
@@ -159,6 +164,36 @@
     }
 
 }
+
+@media only screen and (max-width: 504px) {
+
+    .menubar-before {
+        display: block;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: -5px;
+        margin-left: 0;
+    }
+    
+    .mobile-nav-icon {
+        margin-top: 0px;
+        float: left;
+    }
+    
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+    
+    .sticky .main-nav {
+        margin-top: 7px;
+    }
+    
+
+    
+}
+
 
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
