@@ -47,7 +47,29 @@
 
 }
 
+@media only screen and (max-width: 920px) {
+    
+    .logo {
+        width: 350px;
+     }
+
+    .logo-black {
+        width: 350px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
+    
+    .logo {
+        width: 280px;
+     }
+
+    .logo-black {
+        width: 280px;
+    }
+    
+    
+    
     body { font-size: 16px; }
 
     section { padding: 30px 0; }
@@ -72,8 +94,9 @@
         display: none;
     }
     
-     .mobile-nav-icon {
+    .mobile-nav-icon {
         display: inline-block;
+        font-size: 70%;
     }
     
     .main-nav li {
@@ -129,6 +152,10 @@
         padding: 6px;
         font-size: 120%;
         margin-right: 15px;
+    }
+    
+    .main-nav li {
+        font-size: 80%;
     }
 
 }

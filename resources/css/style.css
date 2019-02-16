@@ -113,11 +113,15 @@ h2:after {
     width: 30px;
     text-align: center;
     color: #e67e22;
-    font-size: 120%;
+    font-size: 150%;
     margin-right: 10px;
     line-height: 120%;
     vertical-align: middle;
     margin-top: -5px;
+}
+
+footer h2 {
+    color: white;
 }
 
 /* ------- LINKS ------- */
@@ -196,7 +200,7 @@ input[type=submit]:active {
 
 header {
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -506,7 +510,7 @@ cite img {
 }
 
 .plan-box div:last-child {
-    text-align: center;
+/*    text-align: center;*/
     border: 0;
 }
 
@@ -596,19 +600,21 @@ footer {
     margin-right: 0;
 }
 
-.footer-nav li a:link,
-.footer-nav li a:visited,
-.social-links li a:link,
-.social-links li a:visited {
+.footer-nav a:link,
+.footer-nav a:visited,
+.social-links a:link,
+.social-links a:visited {
     text-decoration: none;
     border: 0;
     color: #888;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
+    font-size: 150%;
+    font-weight: 400;
 }
 
-.footer-nav li a:hover,
-.footer-nav li a:active {
+.footer-nav a:hover,
+.footer-nav a:active {
     color: #ddd;
 }
 
